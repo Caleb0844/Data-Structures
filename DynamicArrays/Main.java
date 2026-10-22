@@ -1,9 +1,16 @@
-package DynamicArrays;
-import java.util.ArrayList;
+package DynamicArrays; 
+//dynamic arrays are arrays that can grow nd shrink in size as needed.
+import java.util.ArrayList; 
 
 public class Main {
     public static void main(String[] args) {
-        var dynam = new ArrayList<String>();
+        DynamArr dynamArr = new DynamArr();
+        dynamArr.add("A");
+        dynamArr.add("B");
+        dynamArr.add("C");
+
+        System.out.println(dynamArr);
+
         
     }
     
